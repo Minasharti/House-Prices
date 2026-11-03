@@ -1,52 +1,45 @@
-\# House Prices Prediction
+# House Prices Prediction
 
+A machine learning project based on the [Kaggle House Prices: Advanced Regression Techniques](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) competition.
 
+## Project Overview
 
-A machine learning project based on the Kaggle House Prices competition.
+The objective is to predict residential property sale prices using structured housing data and regression techniques.
 
+This project explores different approaches to data preprocessing, feature engineering, model training, and hyperparameter optimization to improve prediction performance.
 
+## Project Workflow
 
-\## Project Overview
+- Exploratory Data Analysis (EDA)
+- Data Cleaning and Missing Value Handling
+- Data Preprocessing
+- Linear Regression
+- Random Forest Regression
+- Feature Engineering
+- Feature Importance Analysis
+- Hyperparameter Tuning
+- Model Evaluation and Prediction
 
+## Tools & Technologies
 
+- Python
+- Pandas and NumPy
+- Matplotlib and Seaborn
+- Scikit-learn
+- Jupyter Notebook
 
-The goal is to predict residential property prices using housing features and machine learning regression models.
+## Project Structure
 
+```text
+House-Prices/
+│
+├── Notebooks/
+│   ├── 1. Regression without data cleaning.ipynb
+│   ├── 2. Linear Regression with Data Cleaning.ipynb
+│   ├── ...
+│
+├── .gitignore
+└── README.md
+```
 
-
-\## Topics Covered
-
-
-
-\- Exploratory Data Analysis
-
-\- Data Cleaning and Preprocessing
-
-\- Linear Regression
-
-\- Random Forest Regression
-
-\- Feature Engineering
-
-\- Feature Importance
-
-\- Hyperparameter Tuning
-
-\- Model Evaluation and Prediction
-
-
-
-\## Tools \& Technologies
-
-
-
-Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Jupyter Notebook
-
-
-
-\## Project Structure
-
-
-
-All notebooks are organized in the `notebooks` directory, covering different stages of data analysis and model development.
-
+The `Notebooks` directory contains 11 notebooks documenting different stages and experiments throughout the model development process.
