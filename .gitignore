@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+train.csv
+test.csv
+data_description.txt
+sample_submission.csv
+submission.csv
